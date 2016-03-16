@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Lewis Model Assignment">
+  <title>Growth and Regional Development</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Growth and Regional Development</h1>
+  <h2 class="author">Lewis Model Assignment</h2>
+  <h3 class="date">by Berend Stofferis 941240</h3>
+</section>
+<section id="TOC">
+<ul>
+<li><a href="#/derivation-of-the-lewis-model">Derivation of the Lewis Model</a><ul>
+<li><a href="#/main-building-blocks">Main Building Blocks</a></li>
+<li><a href="#/static-equilibria">Static Equilibria</a></li>
+<li><a href="#/dynamics">Dynamics</a></li>
+</ul></li>
+<li><a href="#/saving-rate-assumptions">Saving Rate Assumptions</a><ul>
+<li><a href="#/notation">Notation</a></li>
+<li><a href="#/adjust-solow-model">Adjust Solow Model</a></li>
+<li><a href="#/adjust-lewis-model-i">Adjust Lewis Model I</a></li>
+<li><a href="#/adjust-lewis-model-ii">Adjust Lewis Model II</a></li>
+</ul></li>
+<li><a href="#/unified-growth-from-lewis-to-solow">Unified Growth from Lewis to Solow</a><ul>
+<li><a href="#/final-remarks">Final Remarks</a></li>
+</ul></li>
+</ul>
+</section>
+
+<section><section id="derivation-of-the-lewis-model" class="titleslide slide level1"><h1>Derivation of the Lewis Model</h1></section><section id="main-building-blocks" class="slide level2">
+<h1>Main Building Blocks</h1>
+\begin{alignat}{2}
+&amp;[1] &amp;&amp;\hspace{0.2cm}Y_S=A_SL_S\\
+&amp;[2] &amp;&amp;\hspace{0.2cm}w_S=A_S\\
+&amp;[3] &amp;&amp;\hspace{0.2cm}Y_M=A_MK^\alpha L_M^{1-\alpha}\\
+&amp;[4] &amp;&amp;\hspace{0.2cm}w_M=[1-\alpha]{Y_M}/{L_M}\\
+&amp;[5] &amp;&amp;\hspace{0.2cm}L=L_M+L_S\\
+&amp;[6] &amp;&amp;\hspace{0.2cm}w_M=\phi w_S\\
+&amp;[7] &amp;&amp;\hspace{0.2cm}\dot{K}= s_{\pi}[Y_M-w_M L_M ]-{\delta}K
+\end{alignat}
+</section><section id="static-equilibria" class="slide level2">
+<h1>Static Equilibria</h1>
+\begin{alignat}{2}
+&amp;[8] &amp;&amp;\hspace{0.2cm}L_m=K((1-{\alpha})A_m/{\phi}A_s)^{1/{\alpha}}\\
+&amp;[9] &amp;&amp;\hspace{0.2cm}L_s=L-K((1-{\alpha})A_m/{\phi}A_s)^{1/{\alpha}}\\
+&amp;[10] &amp;&amp;\hspace{0.2cm}K&lt;L-K({\phi}A_s/(1-{\alpha})A_m)^{1/{\alpha}}\hspace{0.1cm}{\equiv}\hspace{0.1cm}K^{\#}\\
+&amp;[11] &amp;&amp;\hspace{0.2cm}Y_s=A_sL-A_sK((1-{\alpha})A_m/{\phi}A_s)^{1/{\alpha}}\\
+&amp;[12] &amp;&amp;\hspace{0.2cm}Y_m=KA_m((1-{\alpha})A_m/{\phi}A_s)^{(1-\alpha)/\alpha}\\
+&amp;[13] &amp;&amp;\hspace{0.2cm}Y_m-w_mL_m{\alpha}KA_m((1-{\alpha})A_m/{\phi}A_s)^{(1-\alpha)/\alpha}\\
+&amp;[14] &amp;&amp;\hspace{0.2cm}Y=A_sL+KA_s({\phi/(1-\alpha)-1})((1-{\alpha})A_m/{\phi}A_s)^{1/\alpha}\\
+\end{alignat}
+</section><section id="dynamics" class="slide level2">
+<h1>Dynamics</h1>
+\begin{alignat}{2}
+&amp;[15] &amp;&amp;\hspace{0.2cm}\hat{K}={\alpha}s_{\pi}A_m((1-{\alpha})A_m/{\phi}A_s)^{(1-\alpha)/\alpha}-{\delta}\\
+&amp;[16] &amp;&amp;\hspace{0.2cm}\hat{L}_m=\hat{K}\\
+&amp;[17] &amp;&amp;\hspace{0.2cm}\hat{Y}_s=-\hat{K}\frac{A_s((1-{\alpha})A_m/{\phi}A_s)^{1/{\alpha}}}{A_sL/K-A_s((1-{\alpha})A_m/{\phi}A_s)^{1/{\alpha}}}\\
+&amp;[18] &amp;&amp;\hspace{0.2cm}\hat{Y}_m=\hat{K}\\
+&amp;[19] &amp;&amp;\hspace{0.2cm}\hat{Y}=\hat{K}(1-A_sL/Y)
+\end{alignat}
+</section></section>
+<section><section id="saving-rate-assumptions" class="titleslide slide level1"><h1>Saving Rate Assumptions</h1></section><section id="notation" class="slide level2">
+<h1>Notation</h1>
+<ul>
+<li><span class="math inline">\(s\)</span>: the savings rate as a fraction of <span class="math inline">\(Y\)</span>.</li>
+<li><span class="math inline">\(s_{Y_m}\)</span>: the savings rate as a fraction of <span class="math inline">\(Y_m\)</span>.</li>
+<li><span class="math inline">\(s_{\pi}\)</span>: the savings rate as a fraction of profits.</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img src="EndoSavings.jpg" alt="Figure 1: the savings rate as a function of K." /><figcaption>Figure 1: the savings rate as a function of <span class="math inline">\(K\)</span>.</figcaption>
+</figure>
+</section><section id="adjust-solow-model" class="slide level2">
+<h1>Adjust Solow Model</h1>
+<ul>
+<li>What happens when we set <span class="math inline">\(s_{\pi}^S=s_{\pi}^L\)</span>?</li>
+<li>The gap in the savings rate function disappears!</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img src="EndoSavings1.jpg" alt="Figure 2: In the Solow range s shifts downward to the red line." /><figcaption>Figure 2: In the Solow range <span class="math inline">\(s\)</span> shifts downward to the red line.</figcaption>
+</figure>
+</section><section id="adjust-lewis-model-i" class="slide level2">
+<h1>Adjust Lewis Model I</h1>
+<ul>
+<li>Instead we could also set <span class="math inline">\(s_{Y_m}=s^S\)</span>.</li>
+<li>Now the savings rate over the Lewis range shifts upwards.</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img src="EndoSavings2.jpg" alt="Figure 3: In the Lewis range s shifts upward to the red line." /><figcaption>Figure 3: In the Lewis range <span class="math inline">\(s\)</span> shifts upward to the red line.</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img src="Growth1.jpg" alt="Figure 4: Comparison of growth rates of Y and K over the Lewis range: savings rate based on profits (green) versus savings rate based on mature income (red)." /><figcaption>Figure 4: Comparison of growth rates of Y and K over the Lewis range: savings rate based on profits (green) versus savings rate based on mature income (red).</figcaption>
+</figure>
+</section><section id="adjust-lewis-model-ii" class="slide level2">
+<h1>Adjust Lewis Model II</h1>
+<ul>
+<li>The last option is to set <span class="math inline">\(s^L=s^S\)</span>.</li>
+<li>Again, the savings rate over the Lewis range shifts upwards.</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img src="EndoSavings3.jpg" alt="Figure 5: In the Lewis range s shifts upward to the red line." /><figcaption>Figure 5: In the Lewis range <span class="math inline">\(s\)</span> shifts upward to the red line.</figcaption>
+</figure>
+</section></section>
+<section><section id="unified-growth-from-lewis-to-solow" class="titleslide slide level1"><h1>Unified Growth from Lewis to Solow</h1></section><section id="final-remarks" class="slide level2">
+<h1>Final Remarks</h1>
+<ul>
+<li>Here I will finish this presentation.</li>
+<li>Like the Latex file, no new commands are required beyond this point.</li>
+<li>I hope you have enjoyed reviewing this slideshow.</li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
